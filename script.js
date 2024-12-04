@@ -40,7 +40,6 @@ function customSort(arr) {
 
 // Apply custom sort and output each band name on a new line
 const sortedBands = customSort(bands);
-   const bandListElement = document.getElementById('band-list');
 
 // Log each band name to the console
 sortedBands.forEach(band => {
