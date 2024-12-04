@@ -45,12 +45,12 @@ const bands = [
 // sortedBands.forEach(band => {
 //   console.log(band);
 // });
-const ul = document.getElementById('band-list');
-sortedBands.forEach(band => {
-  let li = document.createElement('li');
-  li.textContent = band;
-  ul.appendChild(li);
-});
+// const ul = document.getElementById('band-list');
+// sortedBands.forEach(band => {
+//   let li = document.createElement('li');
+//   li.textContent = band;
+//   ul.appendChild(li);
+// });
 
 function strip(bandName) {
   return bandName.replace(/^(a |the |an )/i, '').trim();
